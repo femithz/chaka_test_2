@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+.cursor{
+    cursor: pointer;
+}
+*{
+    font-family: Lato;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(37, 63, 101, 0.3) transparent;
+}
+*::-webkit-scrollbar {
+    width: 7px;
+    background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+    border-radius: 1ex;
+    background: rgba(37, 63, 101, 0.3) ;
+}
